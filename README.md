@@ -30,9 +30,9 @@ The workflow corresponds specifically to:
 
 | Step | Script                         | Purpose                                      |
 | ---- | ------------------------------ | -------------------------------------------- |
-| 1    | `run_guppy_hac_methylation.sh` | HAC basecalling + direct methylation calling |
+| 1    | `run_guppy_meth_calling_batch.sh` | HAC basecalling + direct methylation calling |
 
-`run_guppy_hac_methylation.sh` performs Guppy HAC basecalling, native modified-base calling, alignment, move-table generation, BAM merging, BAM sorting, and BAM indexing.
+`run_guppy_meth_calling_batch.sh` performs Guppy HAC basecalling, native modified-base calling, alignment, move-table generation, BAM merging, BAM sorting, and BAM indexing.
 
 ---
 
@@ -60,7 +60,7 @@ guppy-hac-methylation-pipeline/
 │
 ├── README.md
 │
-├── run_guppy_hac_methylation.sh
+├── run_guppy_meth_calling_batch.sh
 │
 ├── reference.fasta
 │
@@ -135,7 +135,7 @@ The model corresponds to:
 Edit the following variables inside:
 
 ```text id="jlwm5m"
-run_guppy_hac_methylation.sh
+run_guppy_meth_calling_batch.sh
 ```
 
 Set:
@@ -152,9 +152,9 @@ TEMP_INPUT_DIR=
 Run:
 
 ```bash id="jlwmol"
-chmod +x run_guppy_hac_methylation.sh
+chmod +x run_guppy_meth_calling_batch.sh
 
-bash run_guppy_hac_methylation.sh
+bash run_guppy_meth_calling_batch.sh
 ```
 
 ---
