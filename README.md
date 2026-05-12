@@ -95,15 +95,6 @@ project/
 
 ---
 
-# Software Requirements
-
-| Software | Purpose                            |
-| -------- | ---------------------------------- |
-| Guppy    | HAC methylation calling            |
-| Samtools | BAM merging, sorting, and indexing |
-
----
-
 # Guppy HAC Modified-Base Model Used
 
 The workflow uses:
